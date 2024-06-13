@@ -3,6 +3,7 @@ package lc;
 import java.util.HashMap;
 import java.util.Map;
 
+//904. Fruit Into Baskets
 public class FruitIntoBaskets {
     public static int totalFruit(int[] fruits) {
         Map<Integer, Integer> count = new HashMap<Integer, Integer>();
