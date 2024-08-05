@@ -7,22 +7,22 @@ import java.util.List;
 public class GenerateParenthesis {
   public static List<String> generateParenthesis(int numberParenthesis) {
     List<String> result = new ArrayList<String>();
-    recurse(result, 0, 0, "", numberParenthesis);
+    generateRecursive(result, 0, 0, "", numberParenthesis);
     return result;
   }
 
-  public static void recurse(List<String> result, int left, int right, String s, int numberParenthesis) {
+  public static void generateRecursive(List<String> result, int left, int right, String s, int numberParenthesis) {
     if (s.length() == numberParenthesis * 2) {
       result.add(s);
       return;
     }
 
     if (left < numberParenthesis) {
-      recurse(result, left + 1, right, s + "(", numberParenthesis);
+      generateRecursive(result, left + 1, right, s + "(", numberParenthesis);
     }
 
     if (right < left) {
-      recurse(result, left, right + 1, s + ")", numberParenthesis);
+      generateRecursive(result, left, right + 1, s + ")", numberParenthesis);
     }
   }
   // See above tree diagram with parameters (left, right, s) for better understanding
