@@ -3,6 +3,7 @@ package lc;
 import java.util.ArrayList;
 import java.util.List;
 
+// 22. Generate Parentheses
 public class GenerateParenthesis {
   public static List<String> generateParenthesis(int numberParenthesis) {
     List<String> result = new ArrayList<String>();
