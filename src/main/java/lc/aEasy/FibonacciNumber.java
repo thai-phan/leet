@@ -1,8 +1,7 @@
 package lc.aEasy;
 
-
+// 509. Fibonacci Number
 public class FibonacciNumber {
-
   public static int fib(int n) {
     if (n == 0) {
       return 0;

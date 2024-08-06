@@ -1,6 +1,5 @@
 package lc.aEasy;
 
-
 import common.TreeNode;
 
 //226. Invert Binary Tree
