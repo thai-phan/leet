@@ -1,6 +1,7 @@
 package lc;
 
-import lc.data.TreeNode;
+import common.ListNode;
+import common.TreeNode;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -508,19 +509,4 @@ class Foo {
 }
 
 
-class ListNode {
-  int val;
-  ListNode next;
 
-  ListNode() {
-  }
-
-  ListNode(int val) {
-    this.val = val;
-  }
-
-  ListNode(int val, ListNode next) {
-    this.val = val;
-    this.next = next;
-  }
-}

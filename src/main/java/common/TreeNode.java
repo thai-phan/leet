@@ -1,4 +1,4 @@
-package lc.data;
+package common;
 
 public class TreeNode {
     public int val;

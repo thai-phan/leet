@@ -1,4 +1,4 @@
-package lc;
+package lc.bMedium;
 
 import java.util.HashMap;
 import java.util.Map;

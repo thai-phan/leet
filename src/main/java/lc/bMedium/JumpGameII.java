@@ -1,5 +1,9 @@
-package lc;
+package lc.bMedium;
 
+
+import common.ListNode;
+
+// 45. Jump Game II
 public class JumpGameII {
     public static void main(String[] args) {
 
@@ -13,7 +17,7 @@ public class JumpGameII {
 
         int[] fruits = {2, 3, 1, 1, 4};
 
-        _jump(fruits);
+        testJump(fruits);
     }
 
     //Input: nums = [2,3,1,1,4]
@@ -39,7 +43,7 @@ public class JumpGameII {
 //        return 0;
 //    }
 
-    public static int _jump(int[] A) {
+    public static int testJump(int[] A) {
         int jumps = 0;
         int curEnd = 0;
         int curFarthest = 0;

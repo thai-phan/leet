@@ -1,7 +1,7 @@
-package lc;
+package lc.aEasy;
 
 
-import lc.data.TreeNode;
+import common.TreeNode;
 
 //226. Invert Binary Tree
 public class InvertBinaryTree {

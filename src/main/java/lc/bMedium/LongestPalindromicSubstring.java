@@ -1,9 +1,8 @@
-package lc;
+package lc.bMedium;
 
-import java.util.Stack;
-
-public class Palindromic {
-  public static String longestPalindrome(String s) {
+// 5. Longest Palindromic Substring
+public class LongestPalindromicSubstring {
+  public static String longestPalindromeSubstring(String s) {
     String finalArr = "";
     for (int i = 0; i < s.length(); i++) {
       for (int j = i + 1; j < s.length(); j++) {
@@ -31,7 +30,7 @@ public class Palindromic {
   }
 
   public static void main(String[] args) {
-    var a = longestPalindrome("babad");
+    var a = longestPalindromeSubstring("babad");
     System.out.println(a);
 
   }

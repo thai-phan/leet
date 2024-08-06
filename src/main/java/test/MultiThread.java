@@ -1,6 +1,4 @@
-package lc.data;
-
-import java.util.concurrent.Semaphore;
+package test;
 
 public class MultiThread {
 
