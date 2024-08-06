@@ -11,18 +11,21 @@ public class GenerateParenthesis {
     return result;
   }
 
-  public static void generateRecursive(List<String> result, int left, int right, String s, int numberParenthesis) {
-    if (s.length() == numberParenthesis * 2) {
-      result.add(s);
+  public static void generateRecursive(List<String> result, int left, int right, String curString, int numberParenthesis) {
+    if (curString.length() == numberParenthesis * 2) {
+//      System.out.println("( " + curString);
+      result.add(curString);
       return;
     }
 
     if (left < numberParenthesis) {
-      generateRecursive(result, left + 1, right, s + "(", numberParenthesis);
+//      System.out.println("( " + curString);
+      generateRecursive(result, left + 1, right, curString + "(", numberParenthesis);
     }
 
     if (right < left) {
-      generateRecursive(result, left, right + 1, s + ")", numberParenthesis);
+//      System.out.println(") " + curString);
+      generateRecursive(result, left, right + 1, curString + ")", numberParenthesis);
     }
   }
   // See above tree diagram with parameters (left, right, s) for better understanding
@@ -55,7 +58,7 @@ public class GenerateParenthesis {
     var aa = insertMiddle("aaabbb", "ccc");
     System.out.println(aa);
 
-    var bbb = generateParenthesis(3);
+    var bbb = generateParenthesis(4);
     System.out.println(bbb);
 
 
