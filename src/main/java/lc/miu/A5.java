@@ -2,20 +2,17 @@ package lc.miu;
 
 public class A5 {
 
-  static int[] a5(int[] first, int[] second)
-  {
-    if (first == null || second == null) return null;
-    if (first.length == 0 || second.length == 0) return new int[0];
-    int min =
-      (first.length < second.length) ? first.length : second.length;
+  static int[] a5(int[] first, int[] second) {
+    if (first == null || second == null)
+      return null;
+    if (first.length == 0 || second.length == 0)
+      return new int[0];
+    int min = (first.length < second.length) ? first.length : second.length;
     int[] a, b;
-    if (min == first.length)
-    {
+    if (min == first.length) {
       a = first;
       b = second;
-    }
-    else
-    {
+    } else {
       a = second;
       b = first;
     }
@@ -23,8 +20,7 @@ public class A5 {
     int k = 0;
     for (int i = 0; i < a.length; i++)
       for (int j = 0; j < b.length; j++)
-        if (a[i] == b[j])
-        {
+        if (a[i] == b[j]) {
           c[k] = a[i];
           k++;
         }
