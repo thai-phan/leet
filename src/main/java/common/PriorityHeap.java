@@ -40,7 +40,11 @@ public class PriorityHeap {
 
   // Function to push according to priority
   static Node push(Node head, int d, int p) {
+    Node start1 = head;
     Node start = (head);
+
+    start1.data = 5;
+    start.data = 6;
 
     // Create new Node
     Node temp = newNode(d, p);
@@ -86,6 +90,8 @@ public class PriorityHeap {
 
     while (isEmpty(pq) == 0) {
       System.out.printf("%d ", peek(pq));
+      System.out.println("aaa");
+
       pq = pop(pq);
     }
 
