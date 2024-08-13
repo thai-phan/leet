@@ -10,6 +10,15 @@ public class BalancedBinaryTree {
     }
     int maxLeft = maxDepth(root.left);
     int maxRight = maxDepth(root.right);
-    return Math.(maxLeft, maxRight) + 1;
+    return Math.max(maxLeft, maxRight) + 1;
+  }
+
+  public static int maxDepth(TreeNode root) {
+    if (root == null) {
+      return 0;
+    }
+    int maxLeft = maxDepth(root.left);
+    int maxRight = maxDepth(root.right);
+    return Math.max(maxLeft, maxRight) + 1;
   }
 }
