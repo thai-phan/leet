@@ -6,25 +6,14 @@ public class MaximumDepthOfBinaryTree {
 
   public static int maxDepth(TreeNode root) {
 
-    TreeNode node = root;
-    int depth = 1;
-
     if (root == null) {
       return 0;
     }
-
-    if (node.left == null && node.right == null) {
-      return depth;
-    }
-
-    while (node.left != null ) {
-      node = node.left;
-      depth++;
-    }
-
-    return depth;
-
+    int maxLeft = maxDepth(root.left);
+    int maxRight = maxDepth(root.right);
+    return Math.max(maxLeft, maxRight) + 1;
   }
+
 
   public static void main(String[] args) {
     TreeNode node2 = new TreeNode(2);
