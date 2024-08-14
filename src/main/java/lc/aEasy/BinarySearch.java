@@ -1,7 +1,7 @@
 package lc.aEasy;
 
 
-// Leetcode 704. Binary Search
+// 704. Binary Search
 public class BinarySearch {
   public int binarySearch(int[] nums, int target) {
     int left = 0;
