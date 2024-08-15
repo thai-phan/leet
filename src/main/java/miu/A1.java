@@ -1,4 +1,4 @@
-package lc.miu;
+package miu;
 
 public class A1 {
 

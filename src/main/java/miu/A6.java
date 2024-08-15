@@ -1,4 +1,4 @@
-package lc.miu;
+package miu;
 
 public class A6 {
   static int a6(int[] a)
