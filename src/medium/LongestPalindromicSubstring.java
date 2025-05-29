@@ -1,4 +1,4 @@
-package lc.bMedium;
+package medium;
 
 // 5. Longest Palindromic Substring
 public class LongestPalindromicSubstring {

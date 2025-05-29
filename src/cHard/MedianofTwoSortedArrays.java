@@ -1,4 +1,4 @@
-package lc.cHard;
+package cHard;
 
 import java.util.ArrayList;
 import java.util.Collections;

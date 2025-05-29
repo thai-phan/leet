@@ -1,4 +1,4 @@
-package lc.aEasy;
+package easy;
 
 // 509. Fibonacci Number
 public class FibonacciNumber {

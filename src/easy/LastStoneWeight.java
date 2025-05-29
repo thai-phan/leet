@@ -1,4 +1,4 @@
-package lc.aEasy;
+package easy;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

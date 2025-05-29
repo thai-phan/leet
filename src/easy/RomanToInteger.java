@@ -1,4 +1,4 @@
-package lc.aEasy;
+package easy;
 
 import java.util.HashMap;
 import java.util.Map;

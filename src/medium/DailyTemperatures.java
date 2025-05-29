@@ -1,4 +1,4 @@
-package lc.bMedium;
+package medium;
 
 
 public class DailyTemperatures {

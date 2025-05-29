@@ -1,4 +1,4 @@
-package lc.bMedium;
+package medium;
 
 import java.util.ArrayDeque;
 import java.util.HashMap;

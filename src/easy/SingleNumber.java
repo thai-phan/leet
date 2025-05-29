@@ -1,7 +1,4 @@
-package lc.aEasy;
-
-import java.util.HashMap;
-import java.util.Map;
+package easy;
 
 // 136. Single Number
 public class SingleNumber {

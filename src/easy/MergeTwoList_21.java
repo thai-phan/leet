@@ -1,4 +1,4 @@
-package lc.aEasy;
+package easy;
 
 import common.ListNode;
 

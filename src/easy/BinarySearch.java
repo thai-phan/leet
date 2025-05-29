@@ -1,4 +1,4 @@
-package lc.aEasy;
+package easy;
 
 
 // 704. Binary Search

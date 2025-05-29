@@ -1,4 +1,4 @@
-package lc.bMedium;
+package medium;
 
 import java.util.ArrayList;
 import java.util.List;
