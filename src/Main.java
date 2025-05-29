@@ -1,4 +1,4 @@
-import common.ListNode;
+import dStructure.ListNode;
 
 import java.util.*;
 
