@@ -1,7 +1,3 @@
-package lc;
-
-import common.TreeNode;
-
 public class ArrayToBinaryTree {
 
 
