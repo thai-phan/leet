@@ -3,7 +3,7 @@ package lc.aEasy;
 import common.ListNode;
 
 // 21. Merge Two Sorted Lists
-public class MergeTwoList {
+public class MergeTwoList_21 {
   public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
     if (list1 == null) {
       return list2;
