@@ -9,35 +9,26 @@ public class LongestCommonSub_1143 {
     System.out.println("hihi");
   }
 
+
   public static int longestCommonSubsequence(String text1, String text2) {
-    int left = 0;
-    int right = 1;
-    String common = "";
-    String text;
-    if (text1.length() > text2.length()) {
-      text = text2;
-    } else {
-      text = text1;
+    int len1 = text1.length();
+    int len2 = text2.length();
+
+    int[][] dp = new int[len1 + 1][len2 + 1];
+
+    // Build the DP table
+    for (int i = 1; i <= len1; i++) {
+      for (int j = 1; j <= len2; j++) {
+        char c1 = text1.charAt(i - 1);
+        char c2 = text2.charAt(j - 1);
+        if (c1 == c2) {
+          dp[i][j] = dp[i - 1][j - 1] + 1;
+        } else {
+          dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+        }
+      }
     }
 
-    for (int i = 0; i < text.length(); i++) {
-
-    }
-
-//    while (right <= text.length()  && left <= text.length() - 1) {
-//      if (common.length() < text.substring(left, right).length()) {
-//        String temp = text.substring(left, right);
-//      } else {
-//        left++;
-//        right++;
-//      }
-//      if (text1.contains(temp)) {
-//        right++;
-//        common = temp;
-//      } else {
-//
-//      }
-//    }
-    return common.length();
+    return dp[len1][len2]; // LCS length
   }
 }
