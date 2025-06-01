@@ -5,6 +5,8 @@ public class LongestCommonSub_1143 {
   public static void main(String[] args) {
     String text1 = "abcde";
     String text2 = "ace";
+
+    var aa = "a/b/c/d//".split("/", 2);
     var aaa = longestCommonSubsequence(text1, text2);
     System.out.println("hihi");
   }
