@@ -1,4 +1,4 @@
-package bMedium.leet;
+package bMedium;
 
 import java.util.HashSet;
 import java.util.Set;

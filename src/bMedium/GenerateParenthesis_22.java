@@ -1,4 +1,4 @@
-package bMedium.leet;
+package bMedium;
 
 import java.util.ArrayList;
 import java.util.List;

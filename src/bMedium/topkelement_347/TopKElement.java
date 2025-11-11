@@ -1,4 +1,4 @@
-package bMedium.leet.topkelement_347;
+package bMedium.topkelement_347;
 
 import java.util.*;
 

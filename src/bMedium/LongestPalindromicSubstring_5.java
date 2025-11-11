@@ -1,4 +1,4 @@
-package bMedium.leet;
+package bMedium;
 
 // 5. Longest Palindromic Substring
 public class LongestPalindromicSubstring_5 {

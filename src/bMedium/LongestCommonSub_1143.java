@@ -1,4 +1,4 @@
-package bMedium.leet;
+package bMedium;
 
 
 public class LongestCommonSub_1143 {

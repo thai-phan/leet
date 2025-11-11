@@ -1,4 +1,4 @@
-package bMedium.hack;
+package bMedium;
 
 
 import java.util.NoSuchElementException;
