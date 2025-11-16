@@ -1,4 +1,4 @@
-package bMedium;
+package bMedium.review;
 
 //  Knuth–Morris–Pratt Algorithm
 public class KMP {

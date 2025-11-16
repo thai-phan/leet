@@ -1,4 +1,4 @@
-package bMedium;
+package bMedium.review;
 
 // 5. Longest Palindromic Substring
 public class LongestPalindromicSubstring_5 {

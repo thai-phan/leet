@@ -1,9 +1,15 @@
 package bMedium.minspantree;
 
+import java.util.Arrays;
+
 public class PrimAlgoGPT {
+  public static void main(String[] args) {
+    int[][] points = {{0, 0}, {2, 2}, {3, 10}, {5, 2}, {7, 0}};
+    int result = minCostConnectPoints(points);
+    System.out.println("result = " + result);
+  }
 
-
-  public int minCostConnectPoints(int[][] points) {
+  public static int minCostConnectPoints(int[][] points) {
     int n = points.length;
     boolean[] visited = new boolean[n];
     int[] minDist = new int[n];
@@ -30,8 +36,7 @@ public class PrimAlgoGPT {
       // 2️⃣ update distances for unvisited nodes
       for (int v = 0; v < n; v++) {
         if (!visited[v]) {
-          int dist = Math.abs(points[u][0] - points[v][0]) +
-              Math.abs(points[u][1] - points[v][1]);
+          int dist = Math.abs(points[u][0] - points[v][0]) + Math.abs(points[u][1] - points[v][1]);
           minDist[v] = Math.min(minDist[v], dist);
         }
       }

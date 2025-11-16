@@ -1,4 +1,4 @@
-package bMedium;
+package bMedium.review;
 
 //  Rabin-Karp algorithm (Double Hash)
 public class RabinKarp {
