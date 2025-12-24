@@ -6,7 +6,7 @@ import java.util.List;
 
 
 
-public class Binary {
+public class BinaryTreeSolution_97 {
   public static void main(String[] args) {
     TreeNode node11 = new TreeNode(11);
     TreeNode node10 = new TreeNode(10);
@@ -21,8 +21,8 @@ public class Binary {
     TreeNode node1 = new TreeNode(1, node2, node3);
 
 
-    Binary ser = new Binary();
-    Binary deser = new Binary();
+    BinaryTreeSolution_97 ser = new BinaryTreeSolution_97();
+    BinaryTreeSolution_97 deser = new BinaryTreeSolution_97();
     TreeNode ans = deser.deserialize(ser.serialize(node1));
     System.out.println("Root value: " + ans.val); // Output the root value to verify
   }

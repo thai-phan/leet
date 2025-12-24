@@ -2,7 +2,7 @@ package cHard;
 
 import java.util.Arrays;
 
-public class BinaryTreeSeDe {
+public class BinaryTreeSeDe_97 {
   public static void main(String[] args) {
     TreeNode node11 = new TreeNode(11);
     TreeNode node10 = new TreeNode(10);
@@ -17,8 +17,8 @@ public class BinaryTreeSeDe {
     TreeNode node1 = new TreeNode(1, node2, node3);
 
 
-    BinaryTreeSeDe ser = new BinaryTreeSeDe();
-    BinaryTreeSeDe deser = new BinaryTreeSeDe();
+    BinaryTreeSeDe_97 ser = new BinaryTreeSeDe_97();
+    BinaryTreeSeDe_97 deser = new BinaryTreeSeDe_97();
     TreeNode ans = deser.deserialize(ser.serialize(node1));
     System.out.println("Root value: " + ans.val); // Output the root value to verify
   }
@@ -120,7 +120,5 @@ public class BinaryTreeSeDe {
     node.left = deLoop(id * 2 + 1, strArr, max);
     node.right = deLoop(id * 2 + 2, strArr, max);
     return node;
-
   }
-
 }

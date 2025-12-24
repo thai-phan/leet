@@ -56,7 +56,10 @@ public class TaskScheduler {
       count += tC;
 
       while (!q.isEmpty()) {
-
+        Task t = q.poll();
+        if (t.freq > 0) {
+          pq.offer(t);
+        }
       }
     }
 

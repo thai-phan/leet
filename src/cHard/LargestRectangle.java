@@ -5,11 +5,11 @@ import java.util.Stack;
 public class LargestRectangle {
 
   public static void main(String[] args) {
-    int[] heights = {2,1,5,6,2,3,2,3};
+    int[] heights = {2, 1, 5, 6, 2, 3, 2, 3};
     int result = largestRectangleArea(heights);
     System.out.println("result = " + result);
-
   }
+
   public static int largestRectangleArea(int[] heights) {
     int n = heights.length;
     int maxArea = 0;

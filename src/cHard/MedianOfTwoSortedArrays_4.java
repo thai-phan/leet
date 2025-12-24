@@ -5,6 +5,15 @@ import java.util.Collections;
 import java.util.List;
 
 public class MedianOfTwoSortedArrays_4 {
+
+  public static void main(String[] args) {
+    MedianOfTwoSortedArrays_4 medianFinder = new MedianOfTwoSortedArrays_4();
+    int[] nums1 = {1, 3};
+    int[] nums2 = {2};
+    double median = medianFinder.findMedianSortedArrays(nums1, nums2);
+    System.out.println("Median: " + median); // Output: Median: 2.0
+  }
+
   public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     List<Integer> list = new ArrayList<>();
     double median;
