@@ -32,7 +32,7 @@ public class NetworkDelayTime {
       map.get(source).add(new int[]{target, time});
     }
 
-    Queue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+    Queue<int[]> queue = new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
     queue.offer(new int[]{k, 0});
 
     while (!queue.isEmpty()) {

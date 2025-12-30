@@ -1,4 +1,4 @@
-package bMedium;
+package bMedium.graph;
 
 import java.util.ArrayList;
 import java.util.HashSet;
