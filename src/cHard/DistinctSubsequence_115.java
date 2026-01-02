@@ -1,9 +1,9 @@
 package cHard;
 
-public class DistinctSubsequence {
+public class DistinctSubsequence_115 {
 
   public static void main(String[] args) {
-    DistinctSubsequence ds = new DistinctSubsequence();
+    DistinctSubsequence_115 ds = new DistinctSubsequence_115();
     String s = "rabbbbbit";
     String t = "rabbit";
     int result = ds.numDistinct(s, t);

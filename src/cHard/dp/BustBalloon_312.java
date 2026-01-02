@@ -1,8 +1,6 @@
 package cHard.dp;
 
-import java.util.Arrays;
-
-public class BustBalloon {
+public class BustBalloon_312 {
   public static void main(String[] args) {
 
 
@@ -11,7 +9,7 @@ public class BustBalloon {
 //    System.out.println("result = " + result); // Expected output: 167
 //    int result2 = maxCoinsLoop(nums);
 //    System.out.println("result2 = " + result2); // Expected output: 167
-    int result3 = new BustBalloon().maxCoins2(nums);
+    int result3 = new BustBalloon_312().maxCoins2(nums);
     System.out.println("result3 = " + result3); // Expected output: 167
   }
 

@@ -2,7 +2,7 @@ package cHard;
 
 import java.util.Stack;
 
-public class LargestRectangle {
+public class LargestRectangleArea_84 {
 
   public static void main(String[] args) {
     int[] heights = {2, 1, 5, 6, 2, 3, 2, 3};

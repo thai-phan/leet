@@ -3,7 +3,7 @@ package cHard;
 import java.util.Deque;
 import java.util.LinkedList;
 
-public class SlidingWindowMax {
+public class SlidingWindowMax_239 {
   public static void main(String[] args) {
 
     int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};

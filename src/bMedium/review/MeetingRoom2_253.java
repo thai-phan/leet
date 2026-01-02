@@ -3,7 +3,7 @@ package bMedium.review;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class MeetingRoom2 {
+public class MeetingRoom2_253 {
   public int minMeetingRooms(int[][] intervals) {
 
     // Check for the base case. If there are no intervals, return 0
