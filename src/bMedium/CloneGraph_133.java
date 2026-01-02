@@ -2,7 +2,7 @@ package bMedium;
 
 import java.util.*;
 
-public class CloneGraph {
+public class CloneGraph_133 {
   public static void main(String[] args) {
     // Test case can be added here
 

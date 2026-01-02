@@ -4,9 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class CarFleet {
+public class CarFleet_853 {
   public static void main(String[] args) {
-    CarFleet solution = new CarFleet();
+    CarFleet_853 solution = new CarFleet_853();
     int target = 12;
     int[] position = {10, 8, 0, 5, 3};
     int[] speed = {2, 4, 1, 1, 3};
