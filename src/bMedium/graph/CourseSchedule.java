@@ -1,9 +1,9 @@
-package bMedium;
+package bMedium.graph;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CoursePre {
+public class CourseSchedule {
 
   public boolean canFinish(int numCourses, int[][] prerequisites) {
     List<List<Integer>> g = new ArrayList<>();

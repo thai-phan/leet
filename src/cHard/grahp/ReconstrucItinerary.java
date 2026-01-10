@@ -43,10 +43,21 @@ public class ReconstrucItinerary {
     List<String> route = new LinkedList<>();
     Stack<String> stack = new Stack<>();
     stack.push("JFK");
+
     while (!stack.empty()) {
-      while (targets.containsKey(stack.peek()) && !targets.get(stack.peek()).isEmpty())
-        stack.push(targets.get(stack.peek()).poll());
+      System.out.println("Out Stack peek: " + stack.peek());
+      while (targets.containsKey(stack.peek()) && !targets.get(stack.peek()).isEmpty()) {
+        System.out.println("In Stack peek: " + stack.peek());
+        String peek = stack.peek();
+        String nextDest = targets.get(peek).poll();
+        System.out.println("Next Dest: " + nextDest);
+        stack.push(nextDest);
+        System.out.println("Stack after push: " + stack);
+      }
+      System.out.println("Route add first: " + stack.peek());
+
       route.addFirst(stack.pop());
+      System.out.println("Stack after pop: " + stack);
     }
     return route;
   }
